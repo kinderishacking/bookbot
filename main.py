@@ -1,5 +1,7 @@
 
 import os
+
+from stats import count_words
 def main():
     # with open('books/frankenstein.txt') as f:
     #     file_contents = f.read()
@@ -14,13 +16,6 @@ def main():
 
 
 
-
-
-
-def count_words(text):
-    words = text.split()
-
-    return len(words)
 
 
 def sort_on(item):
